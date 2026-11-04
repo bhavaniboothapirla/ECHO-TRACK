@@ -93,7 +93,7 @@ Visit the local URL displayed in your terminal.
 
 Explore the deployed application:
 
-https://echo-track-lemon.vercel.app/
+https://echo-track-gilt.vercel.app
 
 ## 🎯 Project Objectives
 
