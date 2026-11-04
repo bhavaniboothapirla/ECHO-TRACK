@@ -1,0 +1,6 @@
+{
+  "name": "EchoTrack",
+  "description": "A daily sustainability logger to track your estimated carbon footprint in under 60 seconds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

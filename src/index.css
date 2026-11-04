@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-lichen: #E8EDE4;
+  --color-lichen-dark: #121915;
+  --color-ink: #17261E;
+  --color-ink-dark: #E4EBE5;
+  --color-moss: #2F6B43;
+  --color-moss-hover: #265736;
+  --color-moss-dark: #3FA066;
+  --color-amber-alert: #B57A12;
+  --color-amber-dark: #DFA238;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: light dark;
+}
+
+/* Field notebook subtle rule styling */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Smooth focus styling */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2F6B43;
+  outline-offset: 2px;
+}
+
+.dark button:focus-visible,
+.dark input:focus-visible,
+.dark textarea:focus-visible {
+  outline: 2px solid #3FA066;
+  outline-offset: 2px;
+}
+
+/* Frosted Glass System for Landing Page */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.9), 0 16px 36px -12px rgba(95, 179, 124, 0.15);
+  border-radius: 24px;
+}
+
+.frosted-glass-pill {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px) saturate(130%);
+  -webkit-backdrop-filter: blur(16px) saturate(130%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px -6px rgba(95, 179, 124, 0.12);
+}
+
+.frosted-glass-nav {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 24px -6px rgba(95, 179, 124, 0.08);
+}
