@@ -1,3 +1,4 @@
+
 # 🌱 EcoTrack – Daily Sustainability Logger
 
 **Track Your Actions. Measure Your Impact. Build a Greener Future.**
@@ -118,7 +119,7 @@ https://echo-track-gilt.vercel.app
 
 **Domain:** Web Development / Environmental Sustainability
 
-**Developed By:** Bhoothapirla Bhavani and Team
+**Developed By:** Bhoothapirla Bhavani
 
 **College:** Narsimha Reddy Engineering College
 
